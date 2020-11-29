@@ -180,7 +180,10 @@ h2 {
     text-align: left;
     color: rgba(114, 114, 114, 1);
 }
-
+.face {
+    height:450px; 
+    width:555px;
+}
 .my_skills, .author {
      display: inline-flex;
      flex-direction: row;
