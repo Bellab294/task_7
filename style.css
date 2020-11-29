@@ -167,19 +167,19 @@ h2 {
     margin-top: 42px;
     margin-bottom: 161px;;
 }
-
+.header_skills {
+    margin-top: 102px;
+}
 .skills_text {
     display: flex;
     flex-direction: row;
   
 }
 .skills_small_text {
-    padding-top: 30px;
-    padding-bottom: 0px;
+    padding-top: 29px;
     text-align: left;
     color: rgba(114, 114, 114, 1);
 }
-
 
 .my_skills, .author {
      display: inline-flex;
@@ -196,14 +196,14 @@ h2 {
 
 .view-image {
      position: absolute;
-    margin-top: -25px;
+     margin-top: -25px;
      margin-left: -25px;
 }
  .menu_text {
      text-transform: uppercase;
 }
 .text_content {
-  color: rgba(114, 114, 114, 1);
+    color: rgba(114, 114, 114, 1);
   
 }
 .my_form {
@@ -221,8 +221,7 @@ h2 {
 .signature {
     padding-top: 50px;
     height: 19px;
-    left: 406px;
-    top: 5058px;
+    
 }
 .rights {
      height: 12px;
