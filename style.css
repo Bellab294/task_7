@@ -141,6 +141,7 @@ h2 {
 .img_gallery {
     width: 46.6px;
     height: 50px;
+    margin-left: 49px;
 }
 
 .p_project {
@@ -163,17 +164,16 @@ h2 {
     height: 175px;
 }
 
-.my_skills {
-    margin-top: 42px;
-    margin-bottom: 161px;;
-}
+
 .header_skills {
     margin-top: 102px;
 }
-.skills_text {
+.my_skills {
     display: flex;
+    flex-direction: row;display: flex;
     flex-direction: row;
-  
+    margin-top: 42px;
+    margin-bottom: 161px;  
 }
 .skills_small_text {
     padding-top: 29px;
@@ -184,7 +184,9 @@ h2 {
     height:450px; 
     width:555px;
 }
-.my_skills, .author {
+
+
+ .author {
      display: inline-flex;
      flex-direction: row;
      align-items: center;
@@ -197,11 +199,11 @@ h2 {
         text-size-adjust: medium;
 }  
 
-.view-image {
-     position: absolute;
-     margin-top: -25px;
-     margin-left: -25px;
+.row_7 {
+    padding-top:28px;
 }
+
+
  .menu_text {
      text-transform: uppercase;
 }
@@ -219,7 +221,8 @@ h2 {
 .question {
     padding-top: 100px;
     left: 670px;
-    top: 4346px
+    
+
 }
 .signature {
     padding-top: 50px;
@@ -233,4 +236,6 @@ h2 {
  .footer_icons {
    padding-bottom: 55px;
  }
+
+ 
         
